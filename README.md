@@ -1,24 +1,30 @@
-# README
+# Email Service
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+API service for email cms that get listing of user emails and cluster emails based on their source and label it
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-* System dependencies
+### Prerequisites
 
-* Configuration
+What things you need to install the software and how to install them
 
-* Database creation
+```
+gem install  'mongoid'
 
-* Database initialization
+```
 
-* How to run the test suite
+## Built With
 
-* Services (job queues, cache servers, search engines, etc.)
+- [MongoDB](https://www.mongodb.com/) - The web framework used
+- [Gmail API](https://developers.google.com/gmail/api) - API to read user emails
+- [Heroku](https://www.heroku.com/) - Used for deployment
 
-* Deployment instructions
+## Authors
 
-* ...
+- **Sagar Pednekar** - [Email Service](https://github.com/sagarpednekar/email-service-backend)
+
+<!-- ## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details -->
